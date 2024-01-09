@@ -21,6 +21,15 @@ body{
     outline: none;
     border: none;
     color: #FFF;
+    transition: transfor, 0.3s ease-in-out;
+    
+}
+.btn-primary:hover{
+    background-color: black;
+    color: gold;
+    font-size: x-large;
+    transition-delay: 0.1s;
+    transform: scale(1.1);
 }
 h5{
     /* text-align: center; */
@@ -168,6 +177,9 @@ h3{
     outline: none;
     border: none;
 }
+.welcome button:hover{
+    color: gray;
+}
 
 /* venue related styles*/
 
@@ -216,6 +228,13 @@ h3{
     height: 450px;
     flex-shrink: 0;
     margin-left: 0px;
+    margin-right: 10px;
+    transition: box-shadow 0.3s ease-in-out; 
+    border-radius: 15px;
+
+}
+.item-image:hover{
+    box-shadow: 0 0 20px rgba(59, 41, 41, 0.8); 
 }
 .item-text h5,
 .item-text h3,
@@ -290,6 +309,9 @@ h3{
     color: #FFF ;
     background-color: #F00;
 }
+.subscribe button:hover{
+    background-color: rgb(221, 4, 4);
+}
 
 
 
@@ -304,6 +326,7 @@ h3{
     gap: 10px;
     border: none;
     margin-bottom: 100px;
+    width: 300px;
 }
 
 input::placeholder {
@@ -312,11 +335,16 @@ input::placeholder {
 
 
 /* Footer related styles */
+
+
 footer{
     background-color: #070211;
     height: 609px;
     flex-shrink: 0;
     color: #FFF;
+}
+footer h5:hover{
+    color: #b0aeae;
 }
 .contact{
     display: flex;
@@ -339,10 +367,14 @@ hr{
     color: rgba(255, 255, 255, 0.15);
 }
 
-.icons img{
+.icons img {
     margin-top: 20px;
     margin-bottom: 40px;
     margin-right: 20px;
+    transition: transfor, 0.3s ease-in-out
+}
+.icons img:hover {
+    transform: scale(1.1);
 }
 .last{
     display: flex;
@@ -354,7 +386,9 @@ hr{
     margin-left: 140px;
     margin-right: 140px;
 }
-
+.uns:hover{
+    color: red;
+}
 /*Extra part related styles: */
 
 .extra-part-1{
@@ -384,7 +418,8 @@ hr{
 .year{
     margin-left: 50px;
 }
-.year img{
+.year h2:hover, .headings h2:hover{
+    color: rebeccapurple;
 }
 /* Extra part 2:  */
 .extra-part-2{
@@ -405,6 +440,10 @@ hr{
     flex-shrink: 0;
     margin-top: 50px;
     margin-left: 25px;
+    transition: transfor, 0.3s ease-in-out
+}
+.extra-part-2 .off:hover{
+    transform: scale(1.1);
 }
 .extra-part-2 .box{
     margin-bottom: 30px;
@@ -414,6 +453,5 @@ hr{
     margin-top: 0px;
     /* border: 1px dashed gold; */
     margin-right: 68px;
-
 }
 
