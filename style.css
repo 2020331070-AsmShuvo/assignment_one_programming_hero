@@ -418,9 +418,13 @@ hr{
 .year{
     margin-left: 50px;
 }
+.year h2{
+    color: #F00;
+}
 .year h2:hover, .headings h2:hover{
     color: rebeccapurple;
 }
+
 /* Extra part 2:  */
 .extra-part-2{
     width: 1320px;
