@@ -159,7 +159,7 @@ h3{
     width: 319.83px;
     height: 464.662px;
 }
-.welcome p{
+.welcome p, {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
     font-weight: 400;
@@ -192,7 +192,7 @@ h3{
     padding-top: 130px;
     border-radius: 12px;
 }
-.venue span{
+.venue span, .holidays span{
     color: red;
 }
 .venue h4{
@@ -258,6 +258,7 @@ h3{
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    
 }
 .item-image{
     /* border: 2px solid green; */
@@ -296,6 +297,7 @@ h3{
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    
 }
 .subscribe button{
     display: inline-flex;
@@ -414,6 +416,7 @@ hr{
     border-radius: 100%;
     padding: 50px;
     margin-left: 50px;
+    margin-bottom: 100px;
 }
 .year{
     margin-left: 50px;
@@ -431,7 +434,7 @@ hr{
     height: 600px;
     flex-shrink: 0;
     /* border: 2px dashed green; */
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 0px;
     background-image: url('images/Rectangle\ 2.png'), url('images/Rectangle\ 1.png');
     background-repeat: no-repeat, no-repeat;
@@ -459,3 +462,25 @@ hr{
     margin-right: 68px;
 }
 
+.holidays{
+    width: 1100px;
+    text-align: center;
+    margin-top: 200px;
+    /* border: 1px solid rebeccapurple; */
+    padding: 30px 100px 0px 100px;
+    
+}
+.holidays h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.headings p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
