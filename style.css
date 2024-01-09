@@ -37,13 +37,10 @@ h3{
 .banner{
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
     border-radius: 16px;
-    background-image: url(images/BannerImage.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/BannerImage.png');
     background-repeat: no-repeat;
     background-size: contain;
-    /* border: 2px solid yellow; */
-    justify-content: center;
 }
 .banner-title{
     color: #FFF;
@@ -52,6 +49,7 @@ h3{
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 0px;
+    padding-top: 150px;
 }
 .banner-heading{
     margin-top: 0px;
@@ -111,7 +109,7 @@ h3{
 /* Welcome related styles:  */
 
 .welcome{
-    background-image: url('images/Vectorrr.png');
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 1320px;
@@ -177,9 +175,7 @@ h3{
     width: 1320px;
     height: 450px;
     flex-shrink: 0;
-    background-color: rgb(236, 236, 249);
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);     
-    /* border: 6px dashed green; */
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin-top: 120px;
     padding-top: 130px;
     border-radius: 12px;
@@ -390,3 +386,34 @@ hr{
 }
 .year img{
 }
+/* Extra part 2:  */
+.extra-part-2{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    /* border: 2px dashed green; */
+    margin-top: 200px;
+    margin-bottom: 0px;
+    background-image: url('images/Rectangle\ 2.png'), url('images/Rectangle\ 1.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top right;
+    display: flex;
+}
+.extra-part-2 .off{
+    height: 300px;
+    width: 300px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.extra-part-2 .box{
+    margin-bottom: 30px;
+    margin-left: 100px;
+    height: 550px;
+    width: 550px;
+    margin-top: 0px;
+    /* border: 1px dashed gold; */
+    margin-right: 68px;
+
+}
+
